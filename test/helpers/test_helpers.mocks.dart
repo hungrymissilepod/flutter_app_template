@@ -9,6 +9,7 @@ import 'dart:ui' as _i5;
 import 'package:flutter/material.dart' as _i3;
 import 'package:flutter_app_template/services/authentication_service.dart'
     as _i6;
+import 'package:flutter_app_template/services/dio_service.dart' as _i7;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:stacked_services/stacked_services.dart' as _i2;
 
@@ -645,3 +646,8 @@ class MockAuthenticationService extends _i1.Mock
         returnValueForMissingStub: false,
       ) as bool);
 }
+
+/// A class which mocks [DioService].
+///
+/// See the documentation for Mockito's code generation for more information.
+class MockDioService extends _i1.Mock implements _i7.DioService {}
