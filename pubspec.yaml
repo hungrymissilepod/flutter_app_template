@@ -12,6 +12,7 @@ dependencies:
   stacked: ^3.4.0
   stacked_services: ^1.1.0
   dio: ^5.3.0
+  logger: any
 
 dev_dependencies:
   build_runner: ^2.4.5

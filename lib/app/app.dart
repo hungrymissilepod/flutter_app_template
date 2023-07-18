@@ -32,5 +32,6 @@ import 'package:flutter_app_template/services/authentication_service.dart';
     StackedDialog(classType: InfoAlertDialog),
     // @stacked-dialog
   ],
+  logger: StackedLogger(),
 )
 class App {}

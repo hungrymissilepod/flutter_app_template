@@ -8,7 +8,7 @@ import 'package:flutter_app_template/ui/views/home/home_viewmodel.dart';
 import '../helpers/test_helpers.dart';
 
 void main() {
-  HomeViewModel getModel() => HomeViewModel();
+  HomeViewModel getModel() => HomeViewModel(0);
 
   group('HomeViewmodelTest -', () {
     setUp(() => registerServices());
@@ -23,8 +23,7 @@ void main() {
     });
 
     group('showBottomSheet -', () {
-      test('When called, should show custom bottom sheet using notice variant',
-          () {
+      test('When called, should show custom bottom sheet using notice variant', () {
         final bottomSheetService = getAndRegisterBottomSheetService();
 
         final model = getModel();
