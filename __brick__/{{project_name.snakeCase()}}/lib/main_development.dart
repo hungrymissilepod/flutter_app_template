@@ -1,4 +1,4 @@
-import 'package:{{project_name.snakeCase()}}/app/app.dart';
+import 'package:{{project_name.snakeCase()}}/app/app_view.dart';
 
 void main() {
   runApp(App());
