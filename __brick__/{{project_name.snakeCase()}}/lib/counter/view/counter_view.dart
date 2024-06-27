@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:stacked/stacked.dart';
 import 'package:{{project_name.snakeCase()}}/counter/counter.dart';
 import 'package:{{project_name.snakeCase()}}/l10n/l10n.dart';
+import 'package:stacked/stacked.dart';
 
 class CounterView extends StackedView<CounterViewModel> {
-  const CounterView({Key? key}) : super(key: key);
+  const CounterView({super.key});
 
   @override
   Widget builder(
