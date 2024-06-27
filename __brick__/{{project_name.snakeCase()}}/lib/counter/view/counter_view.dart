@@ -3,8 +3,6 @@ import 'package:stacked/stacked.dart';
 import 'package:{{project_name.snakeCase()}}/counter/counter.dart';
 import 'package:{{project_name.snakeCase()}}/l10n/l10n.dart';
 
-import 'change_name_viewmodel.dart';
-
 class CounterView extends StackedView<CounterViewModel> {
   const CounterView({Key? key}) : super(key: key);
 
