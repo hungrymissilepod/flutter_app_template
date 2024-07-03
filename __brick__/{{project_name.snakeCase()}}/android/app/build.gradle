@@ -79,16 +79,19 @@ android {
     productFlavors { 
         production {
             dimension "default"
+            applicationId "{{org_name.dotCase()}}.{{project_name.snakeCase()}}"
             applicationIdSuffix ""
             manifestPlaceholders = [appName: "{{project_name.titleCase()}}"]
         }
         staging {
             dimension "default"
+            applicationId "{{org_name.dotCase()}}.{{project_name.snakeCase()}}"
             applicationIdSuffix ".stg"
             manifestPlaceholders = [appName: "[STG] {{project_name.titleCase()}}"]
         }
         development {
             dimension "default"
+            applicationId "{{org_name.dotCase()}}.{{project_name.snakeCase()}}"
             applicationIdSuffix ".dev"
             manifestPlaceholders = [appName: "[DEV] {{project_name.titleCase()}}"]
         }

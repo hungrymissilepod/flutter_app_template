@@ -22,6 +22,7 @@ class CounterView extends StackedView<CounterViewModel> {
         ),
       ),
       floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
         children: [
           FloatingActionButton(
             onPressed: () => viewModel.increment(),
